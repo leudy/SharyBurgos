@@ -24,12 +24,12 @@
         </div>
         <div class="menu col-xs-12 col-md-6">
           <a href="#">Inicio</a>
-          <a href="#">Precio</a>
+          <a href="#precios">Precio</a>
           <a href="#">Contacto</a>
         </div>
       </div>
 
-      <div class="row texto">
+      <div class="row textos">
         <div class="col-md-12">
           <h2 class="first-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
@@ -55,35 +55,38 @@
   <section class="main">
     <section class="caracteristicas">
       <div class="container">
-        <div class="row col-md-12">
-          <h3 class="titulo">Caracteristica</h3>
+        <div class="row">
+          <div class=" col-md-12">
+            <h3 class="titulo">Caracteristica</h3>
+          </div>
         </div>
 
+
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 caracteristica">
             <img src="img/list.png" width="200px" alt="" class="icono" />
-            <h4 class="primera_linea">Producto</h4>
-            <p class="parrago">
+            <h4 class="primera_linea">Estadisticas</h4>
+            <p class="parrafo">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
               totam sint ut, eveniet commodi quaerat minima repudiandae
               perspiciatis id dicta quis, veritatis nisi amet? Fugiat,
               suscipit nesciunt. Labore, magnam earum.
             </p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 caracteristica">
             <img src="img/computer-mouse.png" width="200px" alt="" class="icono" />
-            <h4 class="primera_linea">Producto</h4>
-            <p class="parrago">
+            <h4 class="primera_linea">Creaciones de post</h4>
+            <p class="parrafo">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
               totam sint ut, eveniet commodi quaerat minima repudiandae
               perspiciatis id dicta quis, veritatis nisi amet? Fugiat,
               suscipit nesciunt. Labore, magnam earum.
             </p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 caracteristica">
             <img src="img/eye.png" alt="" width="200px" class="icono" />
             <h4 class="primera_linea">Producto</h4>
-            <p class="parrago">
+            <p class="parrafo">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
               totam sint ut, eveniet commodi quaerat minima repudiandae
               perspiciatis id dicta quis, veritatis nisi amet? Fugiat,
@@ -98,11 +101,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="row foto">
-              <div class="col-md-4 col-xs-4 thumb" style="background-color: red;">
+              <div class="col-md-4 col-xs-4 thumb">
                 <img src="img/pics/mojave.jpeg" class="img-responsive" alt="" />
               </div>
-              <div class="col-md-8 col-xs-8 texto" style="background-color: bisque;">
-                <h2 class="titulo azul">Titulo imagen</h2>
+              <div class="col-md-8 col-xs-8 texto">
+                <h2 class="titulo azul">La vacaciones que mereces</h2>
                 <p class="parrafo">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Saepe, minus culpa voluptates fugit impedit possimus optio
@@ -112,8 +115,8 @@
               </div>
             </div>
             <div class="row foto">
-              <div class="col-md-8  col-xs-8 texto" style="background-color: bisque;">
-                <h2 class="titulo azul">Titulo imagen</h2>
+              <div class="col-md-8  col-xs-8 texto derecha">
+                <h2 class="titulo naranja">Trabajo desde casa</h2>
                 <p class="parrafo">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Saepe, minus culpa voluptates fugit impedit possimus optio
@@ -121,19 +124,19 @@
                   Porro fuga modi quidem quam labore.
                 </p>
               </div>
-              <div class="col-xs-4 col-md-4 thumb" style="background-color: red;">
-                <img src="img/pics/office.jpg" class="img-responsive" alt="" />
+              <div class="col-xs-4 col-md-4 thumb">
+                <img src="img/pics/office.jpg" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="clintes">
+    <section class="clientes">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="titulos">Nuestros clientes</div>
+            <div class="titulo">Nuestros clientes</div>
           </div>
         </div>
         <div class="row">
@@ -156,7 +159,9 @@
         </div>
       </div>
     </section>
-    <section class="precio">
+
+
+    <section class="precios">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -166,9 +171,9 @@
           </div>
         </div>
         <div class="row col-md-12">
-          <div class="precio col-sm-4 col-md-4">
-            <div class="plan-verde">
-              <p class="nomre">
+          <div class="precio col-sm-4">
+            <div class="plan verde">
+              <p class="nombre">
                 Basico
               </p>
               <p class="precio">$550</p>
@@ -177,12 +182,13 @@
                 <li>50gb de foto</li>
                 <li>Dominio personal</li>
               </ul>
+              <a href="#" class="btn">comprar</a>
             </div>
           </div>
 
           <div class="precio col-sm-4 col-md-4">
-            <div class="plan-verde">
-              <p class="nomre">
+            <div class="plan active">
+              <p class="nombre">
                 Basico
               </p>
               <p class="precio">$750</p>
@@ -191,12 +197,13 @@
                 <li>50gb de foto</li>
                 <li>Dominio personal</li>
               </ul>
+              <a href="#" class="btn">comprar</a>
             </div>
           </div>
 
           <div class="precio col-sm-4 col-md-4">
-            <div class="plan-verde">
-              <p class="nomre">
+            <div class="plan blanco">
+              <p class="nombre">
                 Basico
               </p>
               <p class="precio">$1200</p>
@@ -205,11 +212,13 @@
                 <li>50gb de foto</li>
                 <li>Dominio personal</li>
               </ul>
+              <a href="#" class="btn">comprar</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
   </section>
   <footer>
     <div class="direccion">
@@ -220,22 +229,26 @@
             <p class="calle">KyC Villa mella</p>
             <div class="correo">micorreo@correo.com</div>
           </div>
-          <div class="col-md-4">
-            <img src="img/Logo.jpeg" alt="" />
+          <div class="col-md-4 logo">
+            <img src="img/Logo.jpeg" width="200" height="120" alt="" />
           </div>
         </div>
       </div>
     </div>
-    <div class="continer">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i> </a>
-          <a href="#" class="instagram"><i class="fa fa-instagram "></i> </a>
-          <a href="#" class="twitter"><i class="fa fa-twitter"></i> </a>
-          <a href="#" class="youtube"><i class="fa fa-youtube"></i> </a>
+    <div class="social">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i> </a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i> </a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i> </a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i> </a>
+          </div>
         </div>
       </div>
     </div>
+
+
   </footer>
 </body>
 
