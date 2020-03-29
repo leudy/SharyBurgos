@@ -9,10 +9,11 @@ body {
 }
 
 header {
-  background: url(../img/pics/bkground.jpeg), #019851;
+  background: url(../img/pics/bkground.jpeg), rgba(255, 255, 255, 0.4);
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
+  padding-bottom: 70px;
 }
 
 header .contenedor_logo_menu {
@@ -66,19 +67,20 @@ header .textos .second-text {
 header .textos .contenedor-btns a {
   border-radius: 4px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #BF3FBF;
   padding: 12px 0;
-  font-weight: 600;
+  font-weight: 700;
   width: 235px;
   display: inline-block;
   text-align: center;
   margin: 0 10px;
+  font-size: 30px;
 }
 
 header .textos .contenedor-btns a:hover {
   text-decoration: none;
   background: #fff;
-  color: #000;
+  color: #BF3FBF;
 }
 
 .main .caracteristicas {
